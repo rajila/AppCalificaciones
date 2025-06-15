@@ -1,0 +1,13 @@
+<!-- drawable/account-circle.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#888888"
+        android:pathData="M18,2H8A2,2 0 0,0 6,4V20A2,2 0 0,0 8,22H18A2,2 0 0,0 20,20V4A2,2 0 0,0 18,2M18,20H8V4H18V20Z" />
+    <path
+        android:fillColor="#888888"
+        android:pathData="M16,6H10V8H16V6M16,10H10V12H16V10M16,14H10V16H16V14Z" />
+</vector>
