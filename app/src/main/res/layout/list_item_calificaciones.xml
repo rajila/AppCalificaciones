@@ -21,7 +21,8 @@
         android:layout_marginLeft="72dp"
         android:text="@string/value_default"
         android:textAppearance="?textAppearanceListItem"
-        tools:text="@string/value_default" />
+        tools:text="@string/value_default"
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/_notaList"
@@ -31,6 +32,7 @@
         android:layout_marginLeft="300dp"
         android:text="@string/value_default"
         android:textAppearance="?textAppearanceListItem"
-        tools:text="@string/value_default" />
+        tools:text="@string/value_default"
+        android:textColor="@color/black"/>
 
 </RelativeLayout>
