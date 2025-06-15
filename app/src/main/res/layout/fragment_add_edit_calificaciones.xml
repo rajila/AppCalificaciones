@@ -26,17 +26,40 @@ tools:context=".AddEditCalificacionesFragment">
         tools:showIn="@layout/activity_add_edit_contact">
 
         <LinearLayout
-            android:id="@+id/_area_name"
+            android:id="@+id/_area_name1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:orientation="horizontal">
+            <!-- TÍTULO AGREGADO -->
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Datos del Curso"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:paddingTop="0dp"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/_area_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:paddingTop="50dp">
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/_til_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="32dp"
+                android:layout_marginLeft="3dp"
                 app:counterEnabled="true"
                 app:counterMaxLength="@integer/max_character"
                 app:errorEnabled="true">
@@ -63,7 +86,7 @@ tools:context=".AddEditCalificacionesFragment">
                 android:id="@+id/_til_nota"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="32dp"
+                android:layout_marginLeft="3dp"
                 app:counterEnabled="true"
                 app:counterMaxLength="@integer/max_character"
                 app:errorEnabled="true">
